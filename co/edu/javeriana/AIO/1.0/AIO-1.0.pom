@@ -8,8 +8,8 @@
   <dependencies>
     <dependency>
       <groupId>co.edu.javeriana</groupId>
-      <artifactId>BDIBESA</artifactId>
-      <version>2.1</version>
+      <artifactId>Emotional</artifactId>
+      <version>1.0</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
