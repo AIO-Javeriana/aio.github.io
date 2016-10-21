@@ -13,12 +13,6 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>co.edu.javeriana</groupId>
-      <artifactId>AIO</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>org.yaml</groupId>
       <artifactId>snakeyaml</artifactId>
       <version>1.15</version>
