@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>co.edu.javeriana</groupId>
   <artifactId>RationalBESA</artifactId>
-  <version>2.1</version>
+  <version>3.0</version>
   <dependencies>
     <dependency>
       <groupId>co.edu.javeriana</groupId>
