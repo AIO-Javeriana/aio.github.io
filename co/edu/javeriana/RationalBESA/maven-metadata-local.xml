@@ -2,11 +2,13 @@
 <metadata>
   <groupId>co.edu.javeriana</groupId>
   <artifactId>RationalBESA</artifactId>
-  <version>3.0</version>
+  <version>3.2</version>
   <versioning>
     <versions>
       <version>2.0</version>
       <version>3.0</version>
+      <version>3.1</version>
+      <version>3.2</version>
     </versions>
     <lastUpdated>20161030213434</lastUpdated>
   </versioning>
