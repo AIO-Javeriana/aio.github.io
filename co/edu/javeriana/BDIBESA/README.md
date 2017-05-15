@@ -1,4 +1,4 @@
-# BDIBESA
+# BDIBESA 2.4
 
 BDIBESA is a rational agent platform that implements the BDI (belief-desire-intention) architecture and it was developed by the Pontificia Universidad Javeriana in the Java programming language . It consists of a BDI layer implemented on top of RationalBesa.
 
@@ -91,13 +91,20 @@ public class MyFirstGoal extends GoalBDI {
 #### Create Beliefs of the agent
 For the creation of Beliefs, it needs to understand that the Beliefs are an attribute of the agent's state. Thus, an example is the next:
 ```java
-public class AgentBelieves implements Believes {
-    public AgentBelieves() {
+public class AgentBeliefs implements Believes {
+    public AgentBeliefs() {
     }
     @Override
     public boolean update(InfoData infoData) {
-        System.out.println("Believes are updating...");
+        System.out.println("Beliefs are updating...");
         return true;
+    }
+    
+    @Override
+    public AgentBeliefs clone() {
+        AgentBeliefs beliefsClone;
+        ...
+        return beliefsClone;
     }
 }
 ```
@@ -124,7 +131,7 @@ public class MyPeriodicGuard extends PeriodicGuardBESA {
 
 public class MyAgent extends AgentBDI{
     public MyAgent(String alias) throws KernellAgentExceptionBESA, ExceptionBESA {
-        super(alias, new AgentBelieves(), setupGoals(),setupStruct(new StructBESA()));
+        super(alias, new AgentBeliefs(), setupGoals(),setupStruct(new StructBESA()));
     }
     public MyAgent(String alias,StructBESA structBESA) throws KernellAgentExceptionBESA, ExceptionBESA {
         super(alias, new AgentBelieves(), setupGoals(),setupStruct(structBESA));
