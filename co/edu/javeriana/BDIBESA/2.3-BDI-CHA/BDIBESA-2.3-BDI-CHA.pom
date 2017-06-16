@@ -3,20 +3,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>co.edu.javeriana</groupId>
-  <artifactId>RationalBESA</artifactId>
-  <version>3.2</version>
+  <artifactId>BDIBESA</artifactId>
+  <version>2.3-BDI-CHA</version>
   <dependencies>
     <dependency>
       <groupId>co.edu.javeriana</groupId>
-      <artifactId>BESA</artifactId>
-      <version>3.0</version>
+      <artifactId>RationalBESA</artifactId>
+      <version>3.1-BDI-CHA</version>
       <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.10</version>
-      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>

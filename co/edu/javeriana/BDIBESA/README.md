@@ -1,4 +1,4 @@
-# BDIBESA 2.4
+# BDIBESA
 
 BDIBESA is a rational agent platform that implements the BDI (belief-desire-intention) architecture and it was developed by the Pontificia Universidad Javeriana in the Java programming language . It consists of a BDI layer implemented on top of RationalBesa.
 
