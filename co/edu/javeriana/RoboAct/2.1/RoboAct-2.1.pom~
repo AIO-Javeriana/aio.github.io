@@ -3,13 +3,25 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>co.edu.javeriana</groupId>
-  <artifactId>BDIBESA</artifactId>
-  <version>2.3</version>
+  <artifactId>RoboAct</artifactId>
+  <version>2.1</version>
   <dependencies>
     <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
       <groupId>co.edu.javeriana</groupId>
-      <artifactId>RationalBESA</artifactId>
-      <version>3.1</version>
+      <artifactId>BDIBESA</artifactId>
+      <version>2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.yaml</groupId>
+      <artifactId>snakeyaml</artifactId>
+      <version>1.15</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>

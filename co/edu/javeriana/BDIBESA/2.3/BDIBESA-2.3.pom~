@@ -9,7 +9,7 @@
     <dependency>
       <groupId>co.edu.javeriana</groupId>
       <artifactId>RationalBESA</artifactId>
-      <version>3.1</version>
+      <version>3.2</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
